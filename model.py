@@ -7,5 +7,7 @@ def ml():
     Y = np.array([1, 1, 1, 2, 2, 2])
     clf = GaussianNB()
     clf.fit(X,Y)
+    #result
     res = clf.predict([[-0.8, -1]])
+    #return result to HTML
     return res[0]
