@@ -1,6 +1,5 @@
 ssd-ream-time.py
 model.py
-
 yolov3.weights
 yolov3.cfg
 coco.names
