@@ -1,2 +1,1 @@
-test issuse, and this is test message
-second line message test message
+This is test text
