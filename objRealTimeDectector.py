@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 def videoDetector():
     #dnn net read yolo and coco name
-    net = cv2.dnn.readNet("yolov3.weights","yolov3.cfg")
+    net = cv2.dnn.readNet("./YOLO/yolov3.weights", "./YOLO/yolov3.cfg")
     #classes name
     classes = []
     with open("coco.names", "r") as f:
