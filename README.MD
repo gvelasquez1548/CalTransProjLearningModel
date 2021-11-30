@@ -28,11 +28,19 @@ C:.
 │   model.py  
 │   objRealTimeDectector.py  
 │   README.MD  
-│   sample.MP4  
-│   ssd-ream-time.py  
-│   yolov3.cfg  
-│   yolov3.weights  
+│
+├───data  
+│       test.csv  
 │
 ├───templates  
 │       index.html  
+│
+├───YOLO  
+│       savayolo  
+│       yolov3.cfg  
+│       yolov3.weights  
+│
+└───__pycache__  
+        model.cpython-39.pyc  
+        objRealTimeDectector.cpython-39.pyc  
 ```  
