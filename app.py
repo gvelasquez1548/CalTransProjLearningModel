@@ -1,3 +1,5 @@
+from mysql.connector import MySQLConnection, Error
+from config import read_db_config
 from flask import Flask, render_template, Response
 import objRealTimeDectector as obj
 #flask
